@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5F235972-B33D-4089-8A76-D9F0C8CD9500}</ProjectGuid>
+    <ProjectGuid>{CCF353E2-0693-4C45-B5BC-1E95FC71FDE8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PluralSight_WorkingWithNulls</RootNamespace>
-    <AssemblyName>PluralSight_WorkingWithNulls</AssemblyName>
+    <RootNamespace>GameConsole</RootNamespace>
+    <AssemblyName>GameConsole</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DiamondSkinDefense.cs" />
-    <Compile Include="IronBonesDefense.cs" />
-    <Compile Include="ISpecialDefense.cs" />
-    <Compile Include="NullDefense.cs" />
     <Compile Include="PlayerCharacter.cs" />
+    <Compile Include="PlayerDisplayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpecialDefense.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
